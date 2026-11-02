@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    
+}/* Configuración general de la página inspirada en tu estilo analítico y limpio */
+body {
+    background-color: #f0f2f5; /* Gris humo claro para un fondo moderno y suave */
+    color: #333333; /* Gris oscuro para una lectura cómoda y sin fatiga */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Título principal: El toque elegante de tu herencia con el Verde Bosque */
+h1 {
+    color: #1b4d3e; 
+    text-align: center;
+}
+
+/* Subtítulos: Verde más fresco con una línea sutil de separación */
+h2 {
+    color: #2c7a51;
+    border-bottom: 2px solid #a3c1ad; /* Usamos el verde salvia pastel para la línea */
+    padding-bottom: 5px;
+}
+
+/* Enlaces o detalles tecnológicos con el tono azul acero/pizarra */
+a {
+    color: #2b4c6f; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tu foto de perfil con bordes modernos y sombra suave */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
