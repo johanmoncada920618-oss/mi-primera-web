@@ -1,11 +1,7 @@
+/* Configuración general de la página: Fondo degradado con diseño centrado y profesional */
 body {
-    background-color: #f0f2f5;
-    font-family: Arial, sans-serif;
-    
-}/* Configuración general de la página inspirada en tu estilo analítico y limpio */
-body {
-    background-color: #f0f2f5; /* Gris humo claro para un fondo moderno y suave */
-    color: #333333; /* Gris oscuro para una lectura cómoda y sin fatiga */
+    background: linear-gradient(135deg, #f0f2f5 0%, #e2e8f0 100%);
+    color: #333333;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 800px;
     margin: 0 auto;
