@@ -38,3 +38,23 @@ img {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Estilos para organizar los proyectos en tarjetas con Flexbox */
+.projects-container {
+    display: flex;             /* Activamos Flexbox */
+    flex-direction: column;    /* Los organizamos en columna hacia abajo */
+    gap: 15px;                 /* Espacio automático y limpio entre cada tarjeta */
+    margin-top: 15px;
+}
+
+.project-card {
+    background-color: #ffffff; /* Fondo blanco puro para resaltar sobre el degradado */
+    padding: 15px 20px;        /* Espaciado interno cómodo */
+    border-radius: 8px;        /* Bordes redondeados modernos */
+    border-left: 4px solid #2c7a51; /* Una línea lateral con tu verde característico */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra muy sutil de profundidad */
+    transition: transform 0.2s ease; /* Pequeña transición por si luego le ponemos efecto */
+}
+
+.project-card:hover {
+    transform: translateY(-2px); /* Se eleva un poquito al pasar el cursor por encima */
+}
