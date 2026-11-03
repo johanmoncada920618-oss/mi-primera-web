@@ -58,3 +58,26 @@ img {
 .project-card:hover {
     transform: translateY(-2px); /* Se eleva un poquito al pasar el cursor por encima */
 }
+/* Estilos para organizar las etiquetas de habilidades en formato moderno */
+.skills-container {
+    display: flex;             /* Activamos Flexbox */
+    flex-wrap: wrap;           /* Permite que las etiquetas bajen de línea si no caben en la pantalla */
+    gap: 10px;                 /* Espacio limpio entre cada etiqueta */
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.skill-badge {
+    background-color: #2c7a51; /* Tu verde bosque característico para el fondo */
+    color: #ffffff;            /* Texto blanco para un contraste perfecto */
+    padding: 8px 16px;         /* Espaciado interno cómodo */
+    border-radius: 20px;       /* Bordes totalmente redondeados tipo "pastilla" */
+    font-size: 14px;           /* Tamaño de letra equilibrado */
+    font-weight: 600;          /* Letra semi-negrita para que resalte */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave de profundidad */
+    transition: background-color 0.2s ease; /* Transición suave al pasar el cursor */
+}
+
+.skill-badge:hover {
+    background-color: #1b4d3e; /* Oscurece un poquito el verde cuando pasas el mouse por encima */
+}
