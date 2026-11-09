@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Barra de Navegación Superior -->
+    <nav class="navbar">
+        <div class="nav-brand">Johan Moncada</div>
+        <div class="nav-links">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
     <!-- Encabezado principal de la página -->
     <h1>¡Hola, mundo! Soy Johan Sebastian Moncada un futuro programador</h1>
     <!-- Sección de imagen de perfil -->
@@ -14,7 +24,7 @@
     <img src="perfil.jpg" alt="Foto de perfil de Johan" width="150">
 
     <!-- NUEVA SECCIÓN: Sobre mí y tu enfoque profesional -->
-    <h2>Sobre mí</h2>
+    <h2 id="sobre-mi">Sobre mí</h2>
     <p>
         Soy estudiante de desarrollo de software en la Institución Universitaria ITM, construyendo mis bases técnicas con disciplina y dedicación en cada línea de código. Me apasiona entender el funcionamiento profundo de las herramientas tecnológicas y aplicarlas para resolver problemas reales.
     </p>
@@ -33,7 +43,7 @@
         <li>Conseguir mi primer trabajo en tecnología.</li>
     </ul>
   <!-- NUEVA SECCIÓN: Proyectos Académicos con Estructura de Tarjetas -->
-    <h2>Mis Proyectos Académicos</h2>
+    <h2 id="proyectos">Mis Proyectos Académicos</h2>
     <p>Aquí comparto algunos desarrollos realizados durante mi formación en el ITM:</p>
     
     <div class="projects-container">
@@ -53,7 +63,7 @@
         </div>
     </div>
     <!-- NUEVA SECCIÓN: Habilidades Técnicas -->
-    <h2>Mis Habilidades Técnicas</h2>
+    <h2 id="habilidades">Mis Habilidades Técnicas</h2>
     <p>Tecnologías y herramientas que domino y en las que sigo construyendo bases sólidas:</p>
     
     <div class="skills-container">
@@ -68,8 +78,8 @@
     <h2>Enlaces de interés:</h2>
     <p>Visita mi plataforma favorita para aprender:</p>
     <a href="https://www.google.com" target="_blank">Ir a Google</a>
-    <!-- SECCIÓN: Hablemos / Contacto Profesional -->
-    <h2>Hablemos</h2>
+   <!-- SECCIÓN: Hablemos / Contacto Profesional -->
+    <h2 id="contacto">Hablemos</h2>
     <p>¿Quieres contactarme o ver mis proyectos? Escríbeme o visítame por aquí:</p>
     
     <div class="contact-container">
@@ -83,16 +93,15 @@
             <p>johan.moncada920618@gmail.com - Escríbeme directamente.</p>
         </a>
     </div>
+
     <!-- Sección interactiva con JavaScript -->
     <div style="text-align: center; margin: 30px 0;">
         <button onclick="saludarVisitante()" style="background-color: #2c7a51; color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 16px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             Saludar a Johan 🚀
         </button>
     </div>
-    <ul>
-        <li>GitHub: <a href="https://github.com" target="_blank">Mi perfil de GitHub</a></li>
-    </ul>
+
     <!-- Conectamos nuestro archivo de JavaScript -->
     <script src="script.js"></script>
 </body>
-</html> 
+</html>

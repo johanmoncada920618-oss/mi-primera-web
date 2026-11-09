@@ -81,3 +81,42 @@ img {
 .skill-badge:hover {
     background-color: #1b4d3e; /* Oscurece un poquito el verde cuando pasas el mouse por encima */
 }
+/* Estilos para la Barra de Navegación Fija */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1b4d3e; /* Tu verde bosque corporativo */
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #2c7a51; /* Cambia a tu verde al pasar el mouse */
+}
+/* Animación de desplazamiento suave */
+html {
+    scroll-behavior: smooth;
+}
